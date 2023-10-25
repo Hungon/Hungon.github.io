@@ -1,9 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "uninitialized.application.id",
-    "sha256_cert_fingerprints":
-    ["46:03:68:6A:D3:1A:BB:36:3F:D4:A0:CB:57:BB:43:2F:61:43:F9:68:95:99:8D:A8:1F:32:47:47:C6:D9:69:07"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.example.testapplinks",
+      "sha256_cert_fingerprints": [
+        "40:A6:A1:8C:D2:D6:37:31:C7:5A:83:75:67:29:53:1F:E7:FB:4A:BF:62:96:62:AB:59:C4:E1:56:01:D7:86:01",
+        "BE:9F:E8:9C:71:50:38:61:EC:4A:3B:40:32:BA:94:8E:D8:48:BD:B9:DD:9B:5B:CE:28:E6:C8:81:DD:98:5D:65"
+      ]
+    }
   }
-}]
+]
